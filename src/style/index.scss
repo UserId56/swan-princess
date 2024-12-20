@@ -1,0 +1,54 @@
+@use "variables";
+header {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+nav {
+    margin-top: 30px;
+    width: 90%;
+    border-radius: 100px;
+    background-color: variables.$color-white;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    box-shadow: 0px 25px 90px 0px rgba(0, 0, 0, 0.1);
+    & li:not(:last-child) {
+        list-style: none;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding-inline: 30px;
+    }
+    & li:last-child {
+        list-style: none;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        & a {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding-inline: 30px;
+        }
+    }
+    & a {
+        text-decoration: none;
+        color: variables.$color-black;
+        font-size: 30px;
+        font-weight: 600;
+        &:hover {
+            color: variables.$color-gold;
+        }
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+    border-radius: 100px;
+}
