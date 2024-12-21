@@ -4,3 +4,10 @@ $color-white: #fff;
 $color-gold: #ffac00;
 $color-default: #fbfbfb;
 $color-black: #000000;
+$content-size: 1200px;
+@font-face {
+    font-family: "Princess";
+    src: url("../fonts/GreatVibes-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

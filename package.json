@@ -12,6 +12,8 @@
     "vite": "^6.0.1"
   },
   "dependencies": {
+    "embla-carousel": "^8.5.1",
+    "embla-carousel-autoplay": "^8.5.1",
     "sass": "^1.83.0"
   }
 }
